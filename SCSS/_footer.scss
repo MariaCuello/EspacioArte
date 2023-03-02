@@ -1,0 +1,22 @@
+/*--FOOTER--*/
+ 
+footer{
+    background-color: #366775;
+}
+
+.final{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+#contactanos{
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul li{
+    list-style: none;
+    left: 20px;
+}

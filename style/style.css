@@ -66,7 +66,7 @@ a:hover{
 .nav a:hover{
     color: blue;
 }
-/*---------fin inicio bootstrap--------*/
+/*---------fin bootstrap--------*/
 
 
 /*--------------fin barra de navegacion-------------*/
@@ -122,10 +122,6 @@ form {
     text-align: center;
 }
 
-
-
-
-
 ::placeholder{ /* Chrome, Firefox, Opera, Safari 10.1+ */
     font-family:'Open Sans', sans-serif ;
 
@@ -145,10 +141,6 @@ form {
 
 
 /*------------------centro de pagina------------------------*/
-
-
-
-
 .galery {
     margin-top: 1rem;
 }
@@ -174,7 +166,6 @@ form {
     font-family: 'Open Sans', sans-serif;
     width: 100%;
     font-size: 30px;
-
 }
 
 #nosotros h2{
@@ -244,13 +235,12 @@ strong{
 
 
 
-/*------------------------pie de pagina-----------------*/
+/*------------------------pie de pagina---------------------*/
 
 footer{
     background-color: #366775;
 }
 
-    
 .final{
     display: flex;
     flex-flow: row wrap;
@@ -267,12 +257,6 @@ ul li{
     list-style: none;
     left: 20px;
 }
-
-
-
-
-
-
 /*--------------------fin pie de pagina--------------------*/
 
 

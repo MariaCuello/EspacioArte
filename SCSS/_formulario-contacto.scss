@@ -1,0 +1,59 @@
+/*--FORMULARIO DE CONTACTO--*/
+
+.Contact {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    font-family:'Open Sans', sans-serif ;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 30px;
+    width: 50%;
+    margin: 50px;
+    display: grid;
+    grid-template-areas: 
+    "contact contact"
+    "name email"
+    "mensaje mensaje"
+    "none enviar";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 60px 40px 300px 40px;
+    gap: 10px;
+}
+
+.TextContact{
+    grid-area: contact;
+}
+.item1{
+    grid-area: name;
+}
+.item2{
+    grid-area: email;
+}
+.item3{
+    grid-area: mensaje;
+    
+}
+.item4{
+    grid-area: enviar;
+}
+
+.TextContact {
+    border: 2px solid #d66d50;
+    text-align: center;
+}
+
+::placeholder{ /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-family:'Open Sans', sans-serif ;
+
+}
+
+:-ms-input-placeholder{ /* Internet Explorer 10-11 */
+    font-family:'Open Sans', sans-serif
+}
+
+::-ms-input-placeholder{ /* Microsoft Edge */
+    font-family:'Open Sans', sans-serif ;
+}

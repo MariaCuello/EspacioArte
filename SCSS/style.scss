@@ -21,22 +21,6 @@ header{
 
 /*-------------barra de navegacion----------------*/
 
-nav{
-    position: absolute;
-    bottom: 50%; 
-    right: 20px;
-
-    a {text-decoration: none;
-        color: black;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: bold;
-    }
-
-    a:hover{
-        color: blue;
-    }
-}
-
 /*--------- Inicio bootstrap----------*/
 .nav{
     height: 100%;
@@ -64,10 +48,6 @@ nav{
              }
     }
 }
-
-
-
-
 
 /*---------fin bootstrap--------*/
 
@@ -182,3 +162,24 @@ nav{
 }
 /*----------------------centro de pagina-------------------*/
 
+
+/*-----------centro de seccion talleres---------------*/
+
+.container{
+    margin-top: 2rem;
+
+        .col-lg-4{
+            margin-bottom: 1rem;
+        }
+}
+
+    
+
+
+
+
+
+
+
+
+/*------------fin de seccion talleres-----------------*/

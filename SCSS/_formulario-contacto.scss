@@ -9,9 +9,9 @@ form {
     font-family:'Open Sans', sans-serif ;
     font-size: large;
     font-weight: bold;
-    border-radius: 30px;
-    width: 50%;
-    margin: 50px;
+    border-radius: 50px;
+    width: 70%;
+    margin: 1em;
     display: grid;
     grid-template-areas: 
     "contact contact"
@@ -25,25 +25,27 @@ form {
 
 .TextContact{
     grid-area: contact;
+    border: 2px solid #d66d50;
+    text-align: center;
 }
 .item1{
     grid-area: name;
+    width: 100%;
 }
 .item2{
     grid-area: email;
+    width: 100%;
 }
 .item3{
     grid-area: mensaje;
+    width: 100%;
     
 }
 .item4{
     grid-area: enviar;
+    width: 100%;
 }
 
-.TextContact {
-    border: 2px solid #d66d50;
-    text-align: center;
-}
 
 ::placeholder{ /* Chrome, Firefox, Opera, Safari 10.1+ */
     font-family:'Open Sans', sans-serif ;
@@ -56,4 +58,10 @@ form {
 
 ::-ms-input-placeholder{ /* Microsoft Edge */
     font-family:'Open Sans', sans-serif ;
+}
+
+@media (max-width: 600px) {
+    .TextContact {
+        font-size: medium;
+    }
 }

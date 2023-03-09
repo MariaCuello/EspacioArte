@@ -5,9 +5,17 @@
 @import "footer";
 @import "formulario-contacto";
 
+
+
+
 *{
     margin: 0;
     padding: 0;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 
@@ -62,6 +70,9 @@ header{
             margin: 20px;
     }
 }
+
+
+
 /*-----------------galeria------------------*/
 
 .estilotexto{
@@ -257,6 +268,7 @@ header{
         .texto#{$i}{
             background-color: $colora2b4c0;
             font-family: $OpenSans;
+            font-style: italic;
             color: white;
             font-weight: bold;
             text-align: center;
@@ -267,7 +279,7 @@ header{
 
 .escuela-img{
     display: grid;
-    grid-template-columns: 37.5em 37.5em;
+    grid-template-columns: 0.5fr 0.5fr;
     grid-template-rows: auto auto auto auto;
     justify-content: center;
     column-gap: 10px;
@@ -289,7 +301,7 @@ header{
 
 @media (max-width: 800px) {
     .escuela-img {
-      grid-template-columns: 500px;
+      grid-template-columns: 1fr;
     }
 }
 /*-----------------------escuela-----------------------*/    

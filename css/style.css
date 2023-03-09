@@ -131,23 +131,30 @@ header {
 }
 
 /*-----------------galeria------------------*/
-.text, .taller-text, .galery-text {
+.estilotexto, .taller-text, .galery-text {
   background-color: #f7d0cb;
   margin-top: 0.5rem;
   margin-right: 40px;
   margin-left: 40px;
-  height: 80px;
 }
-.text p, .taller-text p, .galery-text p {
+.estilotexto p, .taller-text p, .galery-text p {
   text-align: center;
-  font-family: "Open Sans", sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: x-large;
+  color: #b04629;
 }
 
 .galery-text {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.taller-text a {
+  color: #b04629;
+}
+.taller-text a:hover {
+  color: blue;
 }
 
 /*-----------------informacion index--------------*/
@@ -246,10 +253,15 @@ header {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
-.container .image-container .text, .container .image-container .galery-text, .container .image-container .taller-text {
+.container .image-container .text {
   color: #d66d50;
   font-size: 16px;
   padding: 16px 32px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+.container .image-container .horarios {
+  color: #008080;
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
 }
@@ -264,35 +276,36 @@ header {
 /*---------------------escuela---------------------------*/
 .escuela-img {
   display: grid;
-  grid-template-columns: 600px 600px;
+  grid-template-columns: 37.5em 37.5em;
+  grid-template-rows: auto auto auto auto;
   justify-content: center;
   column-gap: 10px;
   row-gap: 10px;
   margin: 20px;
 }
 .escuela-img .texto1 {
-  background-color: #ccd3cc;
+  background-color: #a2b4c0;
   font-family: "Open Sans", sans-serif;
   color: white;
   font-weight: bold;
   text-align: center;
 }
 .escuela-img .texto2 {
-  background-color: #ccd3cc;
+  background-color: #a2b4c0;
   font-family: "Open Sans", sans-serif;
   color: white;
   font-weight: bold;
   text-align: center;
 }
 .escuela-img .texto3 {
-  background-color: #ccd3cc;
+  background-color: #a2b4c0;
   font-family: "Open Sans", sans-serif;
   color: white;
   font-weight: bold;
   text-align: center;
 }
 .escuela-img .texto4 {
-  background-color: #ccd3cc;
+  background-color: #a2b4c0;
   font-family: "Open Sans", sans-serif;
   color: white;
   font-weight: bold;
@@ -306,6 +319,11 @@ header {
   color: blue;
 }
 
+@media (max-width: 800px) {
+  .escuela-img {
+    grid-template-columns: 500px;
+  }
+}
 /*-----------------------escuela-----------------------*/
 
 /*# sourceMappingURL=style.css.map */

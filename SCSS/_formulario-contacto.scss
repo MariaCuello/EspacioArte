@@ -60,8 +60,22 @@ form {
     font-family:'Open Sans', sans-serif ;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 920px) {
     .TextContact {
-        font-size: medium;
+        height: 55px;
+
+        h1{
+            font-size: x-large;
+        }
     }
 }
+@media (max-width: 450px) {
+    .TextContact{
+        height: 45px;
+
+        h1{
+            font-size: large;
+        }
+    }
+}
+

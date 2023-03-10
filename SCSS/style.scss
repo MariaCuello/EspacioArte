@@ -25,7 +25,9 @@ header{
     height: auto;
     position: relative;
     background-color: white;
-}
+} 
+
+
 /*------------------header----------------------*/
 
 
@@ -279,7 +281,7 @@ header{
 
 .escuela-img{
     display: grid;
-    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-columns: 0.4fr 0.4fr;
     grid-template-rows: auto auto auto auto;
     justify-content: center;
     column-gap: 10px;

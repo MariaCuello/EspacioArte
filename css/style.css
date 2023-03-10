@@ -79,9 +79,20 @@ form {
   font-family: "Open Sans", sans-serif;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 920px) {
   .TextContact {
-    font-size: medium;
+    height: 55px;
+  }
+  .TextContact h1 {
+    font-size: x-large;
+  }
+}
+@media (max-width: 450px) {
+  .TextContact {
+    height: 45px;
+  }
+  .TextContact h1 {
+    font-size: large;
   }
 }
 * {
@@ -287,7 +298,7 @@ header {
 /*---------------------escuela---------------------------*/
 .escuela-img {
   display: grid;
-  grid-template-columns: 0.5fr 0.5fr;
+  grid-template-columns: 0.4fr 0.4fr;
   grid-template-rows: auto auto auto auto;
   justify-content: center;
   column-gap: 10px;

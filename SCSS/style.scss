@@ -58,22 +58,41 @@ header{
              }
     }
 }
+@media (max-width: 570px) {
+    header {
+      img{
+        width: 100%;
+         
+      }
+    }
+} 
 /*------------------bootstrap-----------------*/
 
 /*------------------galeria----------------*/
 .galery {
-    margin-top: 1rem;
-
-        .row {
-            margin-bottom: 2rem;
-    }
-
-        .col {
-            margin: 20px;
+    img{
+        margin-right: 1rem;
+        margin-bottom: 1rem;
     }
 }
 
+@media (max-width: 995px) {
+    .galery {
+      img{
+        width: 80%;
+        
+      }
+    }
+}
 
+@media (max-width: 570px) {
+    .galery {
+      img{
+        width: 50%;
+        
+      }
+    }
+} 
 
 /*-----------------galeria------------------*/
 

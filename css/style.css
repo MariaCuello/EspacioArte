@@ -140,18 +140,28 @@ header {
   color: blue;
 }
 
+@media (max-width: 570px) {
+  header img {
+    width: 100%;
+  }
+}
 /*------------------bootstrap-----------------*/
 /*------------------galeria----------------*/
-.galery {
-  margin-top: 1rem;
-}
-.galery .row {
-  margin-bottom: 2rem;
-}
-.galery .col {
-  margin: 20px;
+.galery img {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
 }
 
+@media (max-width: 995px) {
+  .galery img {
+    width: 80%;
+  }
+}
+@media (max-width: 570px) {
+  .galery img {
+    width: 50%;
+  }
+}
 /*-----------------galeria------------------*/
 .estilotexto, .taller-text, .galery-text {
   background-color: #f7d0cb;
